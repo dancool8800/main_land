@@ -400,6 +400,11 @@ h6 {
     padding: 40px 0;
   }
 }
+.head-nav {
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
 
 @media (max-width: 768px) {
   .price-items {
@@ -418,6 +423,12 @@ h6 {
   .footer-info {
     padding: 15px 20px;
   }
+  .main-info h1 {
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 91%;
+    letter-spacing: -0.02em;
+}
 }
 
 @media (max-width: 576px) {
@@ -469,4 +480,13 @@ h6 {
     padding-bottom: 20px;
     height: unset;
   }
+  .head-nav {
+  flex-wrap: wrap;
+}
+.main-info{
+  width: unset;
+}
+.head-nav ul {
+      flex-wrap: wrap;
+}
 }
